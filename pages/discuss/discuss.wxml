@@ -1,8 +1,0 @@
-<!--pages/discuss/discuss.wxml-->
-<view class="menu_item">
-  <button bindtap="ButtonAddPost">
-    <view class="view_image">
-      <image src="../../tupiansucai/tp11.png" mode="widthFix" class="menu_image"/>
-    </view>
-  </button>
-</view>
