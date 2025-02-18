@@ -1,9 +1,0 @@
-<!--pages/addPost/addPost.wxml-->
-<view class="form-container">
-  <view class="form-header">
-    <button bindtap="goBack">返回</button>
-    <button bindtap="submitForm">发布</button>
-  </view>
-    <input type="text" placeholder="请输入标题" bindinput="onTitleInput" />
-    <textarea placeholder="请输入内容" bindinput="onTextareaInput"></textarea>
-  </view>
