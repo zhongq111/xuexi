@@ -1,0 +1,5 @@
+<!--pages/person/person.wxml-->
+<button bindtap="ButtonSignOut">退出登录</button>
+
+
+
