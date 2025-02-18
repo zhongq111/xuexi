@@ -1,0 +1,27 @@
+<!-- detail.wxml -->
+<view class="container">
+  <view class="title">{{title}}</view>
+  <view class="content">{{content}}</view>
+  <view class="divider"></view>
+  <view>评论</view><button bindtap="ButtonAddPost" class="bottom-button">
+    参与讨论
+  </button>
+  <view class="container1">
+  <!-- 显示评论的区域 -->
+  <view class="comments">
+    <view wx:for="{{comments}}" wx:key="*this">{{item}}
+      <view class="comment-divider" wx:if="{{index < comments.length - 1}}"></view>
+    </view>
+  </view>
+  <!-- 弹出的表单 -->
+  <view class="popup" wx:if="{{isPopupShow}}">
+    <view class="popup-content">
+      <textarea placeholder="请输入评论" bindinput="onInputChange" maxlength="100"></textarea>
+      <text class="char-count">不要超过100字/{{textareaValue.length}}</text>
+      <button bindtap="sendComment">发送</button>
+      <button bindtap="closePopup">取消</button>
+    </view>
+  </view>
+</view>
+    
+</view>
