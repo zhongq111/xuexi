@@ -1,0 +1,23 @@
+/* pages/person/person.wxss */
+/* 整体容器样式 */
+.container {
+  padding: 20px;
+}
+
+/* 信息项样式 */
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* 信息项标签样式 */
+.info-label {
+  width: 100px;
+  font-weight: bold;
+}
+
+/* 编辑按钮样式 */
+.edit-btn {
+  margin-top: 20px;
+}
