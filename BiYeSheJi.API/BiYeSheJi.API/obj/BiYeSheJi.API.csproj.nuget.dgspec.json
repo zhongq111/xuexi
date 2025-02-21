@@ -1,0 +1,426 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.API\\BiYeSheJi.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.API\\BiYeSheJi.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.API\\BiYeSheJi.API.csproj",
+        "projectName": "BiYeSheJi.API",
+        "projectPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.API\\BiYeSheJi.API.csproj",
+        "packagesPath": "C:\\Users\\zq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Service\\BiYeSheJi.Service.csproj": {
+                "projectPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Service\\BiYeSheJi.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Core\\BiYeSheJi.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Core\\BiYeSheJi.Core.csproj",
+        "projectName": "BiYeSheJi.Core",
+        "projectPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Core\\BiYeSheJi.Core.csproj",
+        "packagesPath": "C:\\Users\\zq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.EntityFrameworkCore\\BiYeSheJi.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.EntityFrameworkCore\\BiYeSheJi.EntityFrameworkCore.csproj",
+        "projectName": "BiYeSheJi.EntityFrameworkCore",
+        "projectPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.EntityFrameworkCore\\BiYeSheJi.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\zq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Entity\\BiYeSheJi.Entity.csproj": {
+                "projectPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Entity\\BiYeSheJi.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Entity\\BiYeSheJi.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Entity\\BiYeSheJi.Entity.csproj",
+        "projectName": "BiYeSheJi.Entity",
+        "projectPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Entity\\BiYeSheJi.Entity.csproj",
+        "packagesPath": "C:\\Users\\zq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Repository\\BiYeSheJi.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Repository\\BiYeSheJi.Repository.csproj",
+        "projectName": "BiYeSheJi.Repository",
+        "projectPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Repository\\BiYeSheJi.Repository.csproj",
+        "packagesPath": "C:\\Users\\zq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Core\\BiYeSheJi.Core.csproj": {
+                "projectPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Core\\BiYeSheJi.Core.csproj"
+              },
+              "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.EntityFrameworkCore\\BiYeSheJi.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.EntityFrameworkCore\\BiYeSheJi.EntityFrameworkCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Service\\BiYeSheJi.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Service\\BiYeSheJi.Service.csproj",
+        "projectName": "BiYeSheJi.Service",
+        "projectPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Service\\BiYeSheJi.Service.csproj",
+        "packagesPath": "C:\\Users\\zq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Repository\\BiYeSheJi.Repository.csproj": {
+                "projectPath": "C:\\Users\\zq\\source\\repos\\BiYeSheJi.API\\BiYeSheJi.Repository\\BiYeSheJi.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
